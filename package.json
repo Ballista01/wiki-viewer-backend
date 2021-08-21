@@ -1,0 +1,35 @@
+{
+  "name": "wiki-viewer-backend",
+  "version": "0.0.1",
+  "description": "A simple wikipedia viewer backend.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ballista01/wiki-viewer-backend.git"
+  },
+  "keywords": [
+    "ExpressJS",
+    "CORS",
+    "Wiki"
+  ],
+  "author": "Wenxue Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ballista01/wiki-viewer-backend/issues"
+  },
+  "homepage": "https://github.com/Ballista01/wiki-viewer-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
